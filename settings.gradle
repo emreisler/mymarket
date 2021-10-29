@@ -1,0 +1,22 @@
+rootProject.name = 'mymarket'
+
+include ':courier-service'
+include ':email-service'
+include ':notification-service'
+include ':order-service'
+include ':stock-service'
+
+project(':courier-service').projectDir = new File('./modules/courier-service')
+project(':email-service').projectDir = new File('./modules/email-service')
+project(':notification-service').projectDir = new File('./modules/notification-service')
+project(':order-service').projectDir = new File('./modules/order-service')
+project(':stock-service').projectDir = new File('./modules/stock-service')
+
+
+/*
+include ':A'
+project(':A').projectDir = new File('../A')
+include ':B'
+project(':B').projectDir = new File('../B')
+
+ */
