@@ -12,7 +12,8 @@
             <option value="$PROJECT_DIR$/modules/courier-service" />
             <option value="$PROJECT_DIR$/modules/email-service" />
             <option value="$PROJECT_DIR$/modules/notification-service" />
-            <option value="$PROJECT_DIR$/modules/order-service" />
+            <option value="$PROJECT_DIR$/modules/order/order-common" />
+            <option value="$PROJECT_DIR$/modules/order/order-service" />
             <option value="$PROJECT_DIR$/modules/stock-service" />
           </set>
         </option>
