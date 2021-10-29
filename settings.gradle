@@ -4,10 +4,15 @@ include ':courier-service'
 include ':email-service'
 include ':notification-service'
 include ':order-service'
+include ':order-common'
 include ':stock-service'
+
+
 
 project(':courier-service').projectDir = new File('./modules/courier-service')
 project(':email-service').projectDir = new File('./modules/email-service')
 project(':notification-service').projectDir = new File('./modules/notification-service')
-project(':order-service').projectDir = new File('./modules/order-service')
+project(':order-service').projectDir = new File('./modules/order/order-service')
+project(':order-common').projectDir = new File('./modules/order/order-common')
 project(':stock-service').projectDir = new File('./modules/stock-service')
+
