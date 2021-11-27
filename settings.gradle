@@ -12,9 +12,9 @@ include ':stock-service'
 
 project(':courier-service').projectDir = new File('./modules/courier/courier-service')
 project(':courier-common').projectDir = new File('./modules/courier/courier-common')
-project(':email-service').projectDir = new File('./modules/email-service')
-project(':notification-service').projectDir = new File('./modules/notification-service')
+project(':email-service').projectDir = new File('./modules/email/email-service')
+project(':notification-service').projectDir = new File('./modules//notification/notification-service')
 project(':order-service').projectDir = new File('./modules/order/order-service')
 project(':order-common').projectDir = new File('./modules/order/order-common')
-project(':stock-service').projectDir = new File('./modules/stock-service')
+project(':stock-service').projectDir = new File('./modules/stock/stock-service')
 

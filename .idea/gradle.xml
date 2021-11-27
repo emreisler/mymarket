@@ -12,11 +12,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/modules/courier/courier-common" />
             <option value="$PROJECT_DIR$/modules/courier/courier-service" />
-            <option value="$PROJECT_DIR$/modules/email-service" />
-            <option value="$PROJECT_DIR$/modules/notification-service" />
+            <option value="$PROJECT_DIR$/modules/email/email-service" />
+            <option value="$PROJECT_DIR$/modules/notification/notification-service" />
             <option value="$PROJECT_DIR$/modules/order/order-common" />
             <option value="$PROJECT_DIR$/modules/order/order-service" />
-            <option value="$PROJECT_DIR$/modules/stock-service" />
+            <option value="$PROJECT_DIR$/modules/stock/stock-service" />
           </set>
         </option>
       </GradleProjectSettings>
